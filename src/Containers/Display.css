@@ -1,0 +1,29 @@
+.calculator {
+    width: 100%;
+    padding: 70px 85px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.calculator .display-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator .display-content div:nth-child(1) {
+    margin-right: 10px;
+}
+
+.calculator .custom-btn {
+    background-color: #78cea1;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #78cea1;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
